@@ -8,7 +8,7 @@
      width:400px;
      height:400px;
      object-fit: cover;
-     border:1px solid black;
+     border:1px double  tomato ;
      border-radius: 20px;
      box-shadow:0px 0px 10px 0px rgba(0,0,0,0.75);
      display:block;
@@ -18,7 +18,7 @@
         height: 80px;
         width:80px;
         object-fit: cover;
-        border: 1px solid black;
+        border: 1px double  tomato;
         border-radius:5px;
         margin:10px;
         cursor: pointer;
@@ -30,27 +30,27 @@
 </style>
 </head>
 <body>
-<img src="./images/hp.jpg" id="main-img">
+<img src="./images/hp4.avif" id="main-img">
 <div class="p-img-container">
-<img src="./images/hp.jpg" id="p-img" onclick="changeImage(1)">
-<img src="./images/hp1.jpg" id="p-img" onclick="changeImage(2)">
-<img src="./images/hp2.jpg" id="p-img" onclick="changeImage(3)">
-<img src="./images/hp3.jpg" id="p-img" onclick="changeImage(4)">
-<img src="./images/hp4.jpg" id="p-img" onclick="changeImage(5)">
+<img src="./images/hp4.avif" id="p-img" onclick="changeImage(1)">
+<img src="./images/hp.avif" id="p-img" onclick="changeImage(2)">
+<img src="./images/hp1.avif" id="p-img" onclick="changeImage(3)">
+<img src="./images/hp2.avif" id="p-img" onclick="changeImage(4)">
+<img src="./images/hp3.avif" id="p-img" onclick="changeImage(5)">
 </div>
 <script>
     function changeImage(num){
       const mainImg=document.getElementById("main-img");
       if(num==1){
-        mainImg.src="./images/hp.jpg";
+        mainImg.src="./images/hp4.avif";
       }else if(num==2){
-        mainImg.src="./images/hp1.jpg";
+        mainImg.src="./images/hp.avif";
       }else if(num==3){
-        mainImg.src="./images/hp2.jpg";
+        mainImg.src="./images/hp1.avif";
       }else if(num==4){
-        mainImg.src="./images/hp3.jpg";
+        mainImg.src="./images/hp2.avif";
       }else if(num==5){
-        mainImg.src="./images/hp4.jpg";
+        mainImg.src="./images/hp3.avif";
       }
     }
 </script>
